@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+    
+    function pulaLinha(){
+        document.write("<br>");
+        document.write("<br>");
+    }
+    
+    function mostra (frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var idadePedro = 28;
+    var idadeMarta = 32;
+    var idadeJorge = 60;
+    var idadeBete  = 22;
+
+    var totalIdades = idadeBete + idadeJorge + idadeMarta + idadePedro;
+
+    mostra("O total das idades é: " + totalIdades);
+    mostra(`O total das idades é: ${totalIdades}`);
+    mostra (`A média das idades é: ${totalIdades/4}`)
+
+
+
+
+</script>
